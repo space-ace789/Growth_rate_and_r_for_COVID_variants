@@ -556,7 +556,7 @@ plot(rt_results, what = "R", legend = FALSE) +
     y = expression("Reproduction number" ~ (R[t]))
   )
 ```
-
+**Don't need to filter as EpiEtsim has an in put filtering system to get rid of noise, that is why you can use the daily count
 So, in the early phase of Delta spread, $R_t \approx 1.85$.
 
 ### Reflection: variant competition during a declining outbreak
